@@ -1,0 +1,416 @@
+  
+section{
+	height:1150px;
+}
+.section-top{
+    background: url("../images/background1.webp") no-repeat top center;
+    height:650px;
+}
+.section-top>img{
+	float:left;
+	margin:20px;
+}
+	
+.section-bottom{
+    background:url("../images/background2.webp") no-repeat top center;
+    height:500px;
+    position: relative;
+}
+.section-bottom-left-one{
+	position: absolute;
+	left: 158px;
+	height: 320px;
+	background-color:#000;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000; 
+}
+.section-bottom-left-one img{
+	padding-top: 3px;
+    width: 150px;
+}
+#section-bottom-left-two{
+	position: absolute;
+	left: 310px;
+	width: 540px;
+	height: 320px;
+	background-color: #FFF;
+	border:1px solid #C0C0C0;
+	overflow:hidden;          /*超出隐藏*/
+}
+#focuspicture{
+	position:absolute;
+	width:calc(540px * 4);   /*计算轮播总宽度*/
+}
+#focuspicture img{
+	float:left;
+	width: 540px;
+	height: 320px;
+}
+.play{
+    animation:moves 15s ease-in-out infinite alternate;  /*alternate是direction的属性为交替*/  
+                  /*infinite无限的*/ /*ease-in-out开始结束的速度属性*/
+}
+@keyframes moves {           /*创建动画*/
+	0%,25% {                      /*百分比规定变化的发生的时间*/
+		margin-left:0px;            
+	}
+	30%,50% {
+		margin-left:-540px;
+	}
+	55%,75% {
+		margin-left:-1080px;
+	}
+	80%,100% {
+		margin-left:-1620px;
+	}
+}
+.news{
+	position: relative;
+	float: right;
+	width: 500px;
+	height: 320px;
+	background-color: #FFFFFF;
+	right: 166px;
+	border:1px solid #C0C0C0;
+}
+.news-title{
+	position: absolute;
+    left: 20px;	
+	width:480px;
+	height: 50px;
+	line-height: 50px;
+}
+.news-title>li{
+	float: left;
+	width: 80px;
+	height: 50px;
+}
+#news-list-1-content,#news-list-2-content,#news-list-3-content,#news-list-4-content{
+	display:inline-block;
+	position: absolute;
+	width: 480px;
+	height: 50px;
+    top: 50px;
+	left: 0px;
+	line-height: 50px;
+	border-bottom:1px solid #808080;
+	color: #FFD700;
+	font-size: 16px;
+	background-color: #FFF;
+}	
+#news-list-1-botten,#news-list-2-botten,#news-list-3-botten,#news-list-4-botten{
+	display:inline-block;
+	position: absolute;
+	width: 480px;
+	height: 219px;					
+	list-style-type: none; /* 去掉默认实心圆点*/
+	line-height:42px; 
+	left: 0px;
+	top: 101px;
+	background-color: #FFF;
+}
+#new-list-1{
+	visibility: visible;	/*初始可见*/
+}
+#new-list-2,#new-list-3,#new-list-4{
+	visibility: hidden;     /*初始隐藏*/
+}
+#hovering2:hover #new-list-2{
+    visibility: visible;
+}
+#hovering3:hover #new-list-3{
+    visibility: visible;
+}
+#hovering4:hover #new-list-4{
+    visibility: visible;
+}
+#column{ 
+	position: absolute;	        	
+	width: 1200px;
+	height: 150px;
+    top: 320px; 
+    left: 160px;
+}
+#column img{
+    padding:0 5px;                
+}
+aside{
+	z-index: 5;
+	position: fixed;
+	float: right;
+	margin-right: 2px;
+	top: 300px;
+	right: 10px;
+}
+aside img{
+	width: 150px;
+}
+article{
+	width: 1200px;
+	height: 2900px;       
+	margin: 50px 0 0 150px;
+}
+.introduce-vedio{
+	float: left;
+	height: 600px;
+	margin: 50px 0;
+}
+.vedios{
+	float: left;
+	width: 810px;
+	height: 420px;
+	border: 1px solid #C0C0C0;
+}
+.vedios>img{
+	display: block;
+	margin: 0 auto;
+}
+.vedios-title li{
+    float: left;
+    width: 140px;
+    text-align: center;
+    font-weight: bold;
+    border-right: 1px solid #000; 
+}
+.vedios-title span{
+	background-color: #808080;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 80px;
+}
+.vedios-content{
+	margin-top: 20px;
+}
+.vedios-content li{
+    float: left;
+    width: 240px;
+    height: 130px;
+    margin: 0 13px;
+    text-align: center;
+    overflow: hidden;
+}
+.vedios-content span{
+	display: inline-block;
+	margin: 0 12px;
+	width: 240px;
+	text-align: center;
+}
+.vedios-content img{
+	width: 240px;
+	height: 130px;
+	transition: all 1s;     /*表示所有的属性变化在1s的时间段内完成*/      /*transition过渡*/
+}
+.vedios-content img:hover{
+	transform: scale(1.2);    /*表示在鼠标放到图片上的时候图片按比例缩放1.2倍*/
+}
+.anchor{
+    width: 370px;
+    height: 420px;
+    border: 1px solid #C0C0C0;
+    float: right;
+}
+.anchor>img{
+	display: block;
+	margin: 0 auto;
+}
+.anchor-top>li{
+	float: left;
+	width: 160px;
+	height: 200px;
+	margin:  5px 11px 20px 11px;
+	border: 1px solid #C0C0C0;
+	border-radius: 3px;
+}
+.anchor p{
+	text-align: center;
+}
+.anchor-top>img{
+	width: 160px;
+	height: 180px;
+}
+.anchor-bottom li{
+	float: left;
+	width: 100px;
+	height: 120px;
+	margin: 0 11px;
+}
+.anchor-bottom img{
+	width: 100px;
+	height: 100px;
+}
+.hotweapon{
+	float: left;
+	margin-top: 50px;
+	width: 1200px;
+	height: 430px;
+	border: 1px solid #C0C0C0;
+	position: relative;
+}
+.hotweapon-title{
+	height: 15%;
+	line-height: 62px;
+	border-bottom: 2px solid #C0C0C0;
+}
+.hotweapon-title-li{
+	float: left;
+	display: inline-block;
+	width: 200px;
+	height: 62px;
+	font-size: 24px;
+	text-align: center;
+}
+.hotweapon-title-li:hover{
+    color: #ff7f50;
+    border-bottom: 2px solid #ff7f50;
+    cursor:pointer;   /*鼠标变小手*/
+}
+.hotweapon-content{
+    position: absolute;
+    color: #ff7f50;
+    margin-top:15px; 
+    left: 0;
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+.hotweapon-content div{
+	width: 380px;
+	height: 84%;
+	margin-top: 3px;
+}
+.hotweapon-content img{
+	width: 380px;
+	height: 250px;
+}
+.hotweapon-content p,.hotweapon-content h3{
+	width: 380px;
+	text-align: center;
+	background-color: #e0e0e0;
+	margin-top: -30px;
+}
+.hotweapon-content p{
+	font-size: 18px;
+}
+#hotweapon-content-vehicle,#hotweapon-content-where{
+	background-color: #fff;
+}
+#hotweapon-content-vehicle,#hotweapon-content-where{
+	visibility: hidden;
+}
+.hotweapon-title-vehicle:hover #hotweapon-content-vehicle{
+	visibility: visible;
+}
+.hotweapon-title-base:hover #hotweapon-content-where{
+	visibility: visible;
+}
+.cartoon{
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 1200px;
+	height: 500px;
+	border: 1px ridge #C0C0C0; 
+}
+.cartoon li{
+	float:  left;
+	width:450px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	border-right: 2px solid #000;
+}
+.cartoon>span{
+    margin-left: 200px;
+    text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+.cartoon-1{   
+}
+.cartoon>img{
+	display: block;
+	margin: 0 auto;
+}
+#officialcartoon-A1{
+	display: inline-block;
+	float: left;
+    margin: 40px 20px;
+}
+#officialcartoon{   
+    float: left;
+    width: 800px; 
+    margin-top: 25px; 
+}
+#officialcartoon img{
+    margin: 18px 10px;
+    width: 238px;
+    height: 131px;
+}
+#officialcartoon li{
+    float: left;
+    width: 238px;
+    margin:0 10px;
+    text-align: center;
+    overflow: hidden;          /*溢出隐藏*/
+	text-overflow:ellipsis;     /*溢出用省略号*/
+	white-space: nowrap;       /*不换行，一行显示*/
+}
+.officialcartoon-li1{
+    position: absolute;
+    top: 260px;
+    left: 400px;
+}
+.officialcartoon-li2{
+    position: absolute;
+    top: 430px;
+    left: 400px;
+}
+.feature-wrap{
+	width: 1200px;
+	height: 1000px;
+}	
+#feature{
+    height: 800px;
+}
+#feature>img{
+	display: block;
+	margin: 0 auto;
+}
+#frame0{
+	width: 1200px;
+	height: 572px;
+	background-color: #FFFFFF;
+	overflow:hidden;
+	border:1px solid #C0C0C0;
+}
+#focus-picture0{
+	width:calc(1200px * 5);   /*计算轮播总宽度*/
+}
+#focus-picture0 img{
+	float:left;
+	width: 1200px;
+	height: 572px;
+}
+.play0{
+    animation:moves-two 20s ease-in-out infinite alternate;  /*alternate是direction的属性为交替*/  
+                  /*infinite无限的*/ /*ease-out开始结束的速度属性*/
+}
+@keyframes moves-two {
+	0%,20% {
+		margin-left:0px;
+	}
+	25%,40% {
+		margin-left:-1200px;
+	}
+	45%,60% {
+		margin-left:-2400px;
+	}
+	65%,80% {
+		margin-left:-3600px;
+	}
+	85%,100%{
+        margin-left:-4800px;
+	}
+}
+
+

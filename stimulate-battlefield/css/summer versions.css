@@ -1,0 +1,258 @@
+#html-header{
+	z-index: 3;
+}
+#Versions-one{
+	background:url("../images/Versions/Versions-1-back.webp") no-repeat top center;
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+#Versions-one>img{
+	position: absolute;
+	left: 556px;
+}
+#Versions-one-left{
+	position: absolute;
+	left:60px;
+	top: 210px;
+}
+#Versions-one-left-font{
+	position: absolute;
+	left:10px;
+	top: 70px;
+}
+.p-title{
+    text-align: center;
+    font-size: 30px;
+    color: #FFA500;
+}
+.p-details{
+    text-indent:2em;   /*首行缩进2字符*/
+    font-size: 20px;
+    color: #fff;
+}
+#Versions-one-right{
+	position: absolute;
+	right:60px;
+	top: 130px;
+}
+#Versions-one-right-font{
+	position: absolute;
+	left:10px;
+	top: 70px;
+}
+#Versions-one-two{
+	background:url("../images/Versions/Versions-1-two-back.jpg") no-repeat top center;
+    width: 100%;
+    height: 695px;
+    position: relative;
+}
+#Versions-one-two>img{
+	opacity: 0.95;   /*设置图片透明度*/
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    right: 100px;
+    top: 80px;
+}
+#Versions-one-two-pic2>img{
+	opacity: 0.9;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    right: 365px;
+    top: 390px;
+}
+#Versions-two{
+	position: relative;
+	background:url("../images/Versions/Versions-2-back.webp") no-repeat top center;
+    width: 100%;
+    height: 730px;
+}
+#Versions-two>img{
+	position: absolute;
+	left: 556px;
+}
+#Versions-two-left>img{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+#Versions-two-left-font{
+	position: absolute;
+    width: 400px;
+	height: 270px;
+	top: 400px;
+	left: 300px;
+	border: 2px solid #FA8072;
+}
+#Versions-two-right>img{
+	position: absolute;
+	top: 100px;
+	right: 100px;
+}
+#Versions-two-right-font{
+	position: absolute;
+    width: 400px;
+	height: 270px;
+	top: 400px;
+	right: 300px;
+	border: 2px solid #FA8072;
+}
+#Versions-three{
+	background:url("../images/Versions/Versions-3-back.webp") no-repeat top center;
+    width: 100%;
+    height: 730px;
+}
+#Versions-three>img{
+	margin-left: 556px;
+}
+#Versions-three-left{
+	position: relative;
+    top: 45px;
+	left: 80px;
+	width: 390px;
+	height: 510px;
+	border: 2px solid #FA8072;
+}
+#Versions-three-left>img{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+#Versions-three-left-font{
+	position: absolute;
+    width: 390px;
+	height: 270px;
+	top: 320px;
+	left:5px;
+}
+#Versions-three-content{
+	position: relative;
+    bottom:470px;
+	left: 570px;
+	width: 390px;
+	height: 510px;
+	border: 2px solid #FA8072;
+}
+#Versions-three-content>img{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+#Versions-three-content-font{
+	position: absolute;
+    width: 390px;
+	height: 270px;
+	top: 320px;
+	left:5px;
+}
+#Versions-three-right{
+	position: relative;
+    top:-985px;
+	left: 1050px;
+	width: 390px;
+	height: 510px;
+	border: 2px solid #FA8072;
+}
+#Versions-three-right>img{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+}
+#Versions-three-right-font{
+	position: absolute;
+    width: 390px;
+	height: 270px;
+	top: 320px;
+	left:5px;
+}
+#Versions-four{
+	background:url("../images/Versions/Versions-4-back.webp") no-repeat top center;
+    width: 100%;
+    height: 730px;
+}
+#Versions-four>img{
+	margin-left: 475px;
+}
+#Versions-four-left{
+	position: relative;
+    top: 20px;
+	left: 170px;
+	width: 591px;
+	height: 500px;
+	border: 2px solid #FA8072;
+}
+#Versions-four-left>img{
+    position: absolute;
+}
+#Versions-four-left-font{
+	position: absolute;
+    width: 590px;
+	height: 170px;
+	top: 320px;
+	left:5px;
+}
+#Versions-four-right{
+	position: relative;
+    bottom: 484px;
+	left: 765px;
+	width: 591px;
+	height: 500px;
+	border: 2px solid #FA8072;
+}
+#Versions-four-right>img{
+    position: absolute;
+}
+#Versions-four-right-font{
+	position: absolute;
+    width: 590px;
+	height: 170px;
+	top: 320px;
+	left:5px;
+}
+#Versions-five{
+	background:url("../images/Versions/Versions-5-back.webp") no-repeat top center;
+    width: 100%;
+    height: 730px;
+    position: relative;
+}
+#Versions-five>img{
+	margin-left: 556px;
+}
+#Versions-five-frame{
+	position: absolute;
+	top: 110px;
+	left: 290px;
+	width: 900px;
+	height: 602px;
+	border:1px solid #C0C0C0;
+	overflow:hidden;
+}
+#Versions-five-focus{
+	position:absolute;
+	width:calc(900px * 4);   /*计算轮播总宽度*/
+}
+#Versions-five-focus img{
+	float:left;
+	width: 900px;
+	height: 600px;
+}
+.Versions-5-play{
+	animation:moves 20s ease-in-out infinite alternate;  /*alternate是direction的属性为交替*/  
+                  /*infinite无限的*/ /*ease-out开始结束的速度属性*/
+}
+@keyframes moves {
+	0%,25% {
+		margin-left:0px;
+	}
+	30%,50% {
+		margin-left:-900px;
+	}
+	55%,75% {
+		margin-left:-1800px;
+	}
+	80%,100% {
+		margin-left:-2700px;
+	}
+}

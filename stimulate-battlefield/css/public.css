@@ -1,0 +1,150 @@
+body{
+	width: 1519px;
+	font-family: "Microsoft Yahei";
+	margin: 0 auto;
+	padding: 0；
+}
+a:link,a:visited{      /*link(超链接初始状态)  visited（超链接访问过后状态）*/
+	text-decoration:none;     /*去掉下划线*/
+	color:#000;
+}
+a:hover,a:active{    /* hover（鼠标经过状态）active（鼠标点击状态）*/
+	text-decoration:none;
+	color: #ff8c00;
+}
+div{
+	overflow:hidden;
+}
+ul,p,span,h3{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style-type: none; /* 去掉默认实心圆点*/
+}
+iframe{
+    display: block;   
+   	border: 0;    /*处理iframe的底部留白问题*/
+}
+.active{
+	color: #ff8c00;
+}
+.header{
+	height: 40px;
+}
+.header-left{
+	float: left;
+    margin-left:480px; 
+}
+.header-center{
+    float: left;
+	position: relative;
+    margin:0 50px;
+    overflow: visible;
+}
+.header-center-hover{
+	display: none;
+	position: absolute;
+    top: 0px;
+	left: -200px;
+	z-index: 2;     /*设置元素的堆叠顺序*/
+}
+.header-center:hover .header-center-hover{
+	display: block;
+}
+.header-right{
+	height: 40px;
+	float: left;
+}
+.nav{
+	background-color:#000;
+	height: 80px;
+	position: relative;
+}
+nav>img{
+	position: absolute;
+	left: 150px;
+}
+.nav-left{
+	color:#FF8C00;
+	font-size:20px;
+	line-height: 80px; 
+	position: absolute;
+	left: 250px;	
+}
+.nav-right{
+	position: absolute;
+	right: 100px;
+	line-height: 80px;
+}
+.nav-right li{
+	float: left;
+	width: 100px;
+	text-align: center;
+}
+.nav-right a:link,.nav-right a:visited{      /*link(超链接初始状态)  visited（超链接访问过后状态）*/
+	color:#fff;
+}
+.nav-right a:hover,.nav-right a:active{    /* hover（鼠标经过状态）active（鼠标点击状态）*/
+	color: #ff8c00;
+}
+footer{
+	background:url("../images/wrap-bettom.webp") no-repeat top center;
+	height: 615px;
+	width: 100%;
+    position: relative;   
+}
+#footer-top-code{
+	position: absolute;
+    height: 174px;
+    top: 200px;
+    margin-left: 60px;
+}
+#footer-top-code li{
+	float: left;
+	height: 174px;
+	width: 174px;
+	margin-left:135px;
+	border: 1px solid #a07708;
+    list-style-type: none; /* 去掉默认实心圆点*/
+}
+#footer-top-font{
+	position: absolute;
+	top: 376px;
+	margin-left: 60px;
+}
+#footer-top-font li{
+	float: left;
+	height: 70px;
+	width: 174px;
+	margin-left:135px;
+	font-size: 18px;
+    color: #fff;
+    line-height: 70px;
+    background: #000;
+    text-align: center;
+    border: 1px solid #a07708;
+}
+#footer-top-picture{
+	position: absolute;
+	top: 500px;
+	left: 50px;
+}
+#footer-top-picture img{
+	margin-left: 50px;
+}
+#footer-bottom-font{
+	position: absolute;
+	left: 645px;
+	top: 480px;
+}
+#footer-bottom-font li{
+	width: 750px;
+	color: #fff;
+	font-size: 13px;
+
+}
+#footer-bottom-font a:link,#footer-bottom-font a:visited,#footer-bottom-font a:hover,#footer-bottom-font a:active {
+	color: #fff;
+	font-size: 13px;
+}

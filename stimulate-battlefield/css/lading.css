@@ -1,0 +1,75 @@
+#lading{
+	width: 500px;
+	height: 500px;
+	border: 2px solid #DCDCDC;
+	background-color:#fff; 
+	margin-bottom: 100px;
+	position: relative;
+	left: 500PX;
+	top: 50px;
+}
+#lading>img{
+	display: block;
+	margin: auto;      /*使图片居中*/
+}
+#lading-picture{
+	width: 120px;
+	height: 50px;
+	position: absolute;
+	left: 195px;
+	top: 140px;
+}
+#lading p{
+	font-size: 20px;
+	color:#808080;
+	text-align: center;
+}
+#lading-picture+p{           /*+相邻兄弟选择器*/
+	position: absolute;
+	top: 200px;
+	left: 130px;
+}
+#lading-picture>img{
+    float: left;
+    margin-left: 10px;
+}
+.lading-input{
+    position: absolute;
+    top: 260px;
+    left: 130px;
+}
+.lading-input span{
+    display: inline-block;
+    position: absolute;
+    left: -50px;
+}
+.lading-input input{
+	width: 240px;
+	height: 36px;
+	font-size: 18px;
+	/*outline:none;*/    /*取消文本框高亮*/
+	padding-bottom: 10px;
+	background-color: #fcfcfc;
+	border-radius: 5px;           /* 设置圆角框*/
+	margin-bottom: 10px;
+}
+#submit{
+	background-color: #ec414d;
+	width: 240px;
+	height: 45px;
+	color: #fff;
+	margin-top: 10PX;
+}
+.lading-input+p{
+	position: absolute;
+	bottom: 20px;
+	left: 132px;
+}
+#lading a:link,#lading a:visited{      /*link(超链接初始状态)  visited（超链接访问过后状态）*/
+	text-decoration:none;     /*去掉下划线*/
+	color:#000;
+}
+#lading a:hover,#lading a:active{    /* hover（鼠标经过状态）active（鼠标点击状态）*/
+	text-decoration:none;
+	color: red;
+}

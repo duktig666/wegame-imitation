@@ -1,0 +1,305 @@
+@keyframes bnt{
+	0%, 30% {
+    	opacity: 0;
+		transform: translateX(-5px);
+	}
+	60% {
+    	opacity: 1;
+    	transform: translateX(0);
+	}
+	100% {
+    	opacity: 0;
+    	transform: translateX(2px);
+	}
+}
+.greenhand-nav{
+	background:url("../images/greenhand/nav-background.png") no-repeat top center;
+	background-size: 100% 80px;
+	width: 100%;
+	height: 80px;
+	position: relative;
+	top: 40px;
+}
+.greenhand-nav>img{
+	position: absolute;
+	left: 150px;
+}
+.greenhand-nav-left{
+	color:#FF8C00;
+	font-size:20px;
+	line-height: 80px; 
+	position: absolute;
+	left: 250px;	
+}
+.greenhand-nav-right{
+	position: absolute;
+	right: 100px;
+	line-height: 80px;
+}
+.greenhand-nav-right li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	margin: 0 20px;
+}
+.greenhand-nav-right a:link,.greenhand-nav-right a:visited{      /*link(超链接初始状态)  visited（超链接访问过后状态）*/
+	color:#fff;
+}
+.greenhand-nav-right li:hover,.greenhand-nav-right li:active{    /* hover（鼠标经过状态）active（鼠标点击状态）*/
+	background-color: #ff8c00;
+}
+.interface{
+	background:url("../images/greenhand/background-interface.webp") no-repeat top center;
+	background-size: 100% 750px;
+	height: 750px;
+	width: 100%;
+	position: relative;
+	top: 40px;
+}
+.interface img{
+	width: 60px;
+	height: 60px;
+}
+.fire-position{
+    position: absolute;
+    bottom: -50px;
+}
+.fire1{
+    left: 10%;
+    animation: fire-animation 3.5s infinite;
+}
+.fire2{
+    left: 18%;
+    animation: fire-animation 4s infinite;
+}
+.fire3{
+    left: 26%;
+    animation: fire-animation 6s infinite;
+}
+.fire4{
+    left: 40%;
+    animation: fire-animation 4.5s infinite;
+}
+.fire5{
+    left: 50%;
+    animation: fire-animation 2s infinite;
+}
+.fire6{
+    left: 60%;
+    animation: fire-animation 3.8s infinite;
+}
+.fire7{
+    left: 68%;
+    animation: fire-animation 7s infinite;
+}
+.fire8{
+    left: 85%;
+    animation: fire-animation 4s infinite;
+}
+.fire9{
+    left: 88%;
+    animation: fire-animation 3.5s infinite;
+}
+.fire10{
+    left: 5%;
+    animation: fire-animation 8s infinite;
+}
+@keyframes fire-animation{
+	0% {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+100% {
+    opacity: 0;
+    transform: translate3d(100px,-600px,0);
+}
+}
+.operation{
+	background:url("../images/greenhand/background-operation.webp") no-repeat top center;
+	background-size: 100% 800px;
+	height: 800px;	
+	position: relative;
+}
+.operation a:hover{
+	transform: translate(10px,10px);
+}
+.operation span{
+	color: #fff;
+	font-size: 60px;
+    animation: bnt 2.5s infinite;
+}
+
+.bnt-one{
+	position: absolute;
+	top: 380px;
+	left: 160px;
+}
+.bnt-two{
+	position: absolute;
+	top: 650px;
+	left: 160px;
+}
+.bnt-three{
+	position: absolute;
+	top: 300px;
+	right: 160px;
+}
+.bnt-four{
+	position: absolute;
+	top: 570px;
+	right: 160px;
+}
+.experience{
+	background:url("../images/greenhand/background-experience.webp") no-repeat top center;
+	background-size: 100% 750px;
+	height: 750px;
+	position: relative;
+}
+.experience-jeeping img{
+    animation: jeep 2s infinite;
+}
+@keyframes jeep{
+	0%, 20%, 53%, 80%, 100% {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate(0,0);
+}
+40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate(0, -15px);
+}
+70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate(0, -10px);
+}
+90% {
+    transform: translate(0,-2px);
+}
+}
+.experience-jeeping-pic1,.experience-jeeping-pic2,.experience-jeeping-pic3,.experience-jeeping-pic4,
+.font1,.font2,.font3,.font4,.font5,.font6{
+	position: absolute;
+}
+.experience-jeeping-pic1{
+    top: 370px;
+    left: 300px;
+}
+.experience-jeeping-pic2{
+    top: 470px;
+    left: 650px;
+}
+.experience-jeeping-pic3{
+    top: 210px;
+    right: 410px;
+}
+.experience-jeeping-pic4{
+    top: 450px;
+    right: 330px;
+}
+.experience-jeeping p{
+    color: #fff;
+    font-size: 20px;
+}
+.font1{
+	top: 310px;
+	left: 490px;
+}
+.font2{
+	top: 375px;
+	left: 510px;
+}
+.font3{
+	top: 240px;
+	left: 710px;
+}
+.font4{
+	top: 340px;
+	left: 700px;
+}
+.font5{
+	top: 280px;
+	left: 910px;
+}
+.font6{
+	bottom: 180px;
+	left: 850px;
+}
+.tactics{
+	background:url("../images/greenhand/background-tictics.webp") no-repeat top center;
+	background-size: 100% 950px;
+	height: 950px;
+	position: relative;
+}
+.tactics ul{
+	margin-left: 270px;
+}
+.tactics li{
+    float: left;
+    margin: 375px 30px 0 30px;
+    transition: all 1s;
+}
+.tactics li:hover{
+	transform: rotateY(30deg);
+}
+.strategy{
+	background:url("../images/greenhand/background-strategy.webp") no-repeat top center;
+    background-size: 100% 780px;
+	height: 780px;
+	position: relative;
+}
+.strategy-font,.strategy-vedio{
+	width: 560px;
+	height: 400px;
+	background-color: #000;
+	position: absolute;
+	top: 300px;
+	color: #fff; 
+}
+.strategy-font{
+	left: 200px;
+}
+.strategy-vedio{
+	right: 180px;
+}
+.strategy-font li{
+	width: 500px;
+	height: 150px;
+	display: block;
+	margin: 10px auto;
+}
+.strategy-font h2,.strategy-vedio h2{
+	text-align: center;
+}
+.strategy-font img{
+	float: left;
+    width: 160px;
+    height: 120px;
+}
+.strategy-font-p1,.strategy-font-p1+p{
+	width: 320px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	float: right;
+}
+.strategy-font-p1{
+    line-height: 56px;
+	font-size: 24px;
+	color: #c9d6f9;	
+    white-space: nowrap;
+}
+.strategy-font-p1+p{
+	color: #78839e;
+    font-size: 20px;
+    height: 56px;
+}
+.strategy-vedio img{
+	display: block;
+	width: 480px;
+	height: 250px;
+	margin: 0 auto;
+}
+.strategy-vedio-font{
+	line-height: 56px;
+	font-size: 20px;
+	text-align: center;
+	color: #c0c0c0;	
+}
