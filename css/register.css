@@ -1,0 +1,178 @@
+body{
+	background-color: #fff;
+}
+.register-left{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 480px;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#register-left{
+	background-image: url("../images/register/register-left-one.jpg");
+}
+.register-left>img{
+	width: 36px;
+	height: 43px;
+	margin: 20px 5px 0 30px;
+	vertical-align: middle;
+}
+.register-left>span{
+	margin-top: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 32px;
+}
+.register-content{
+	position: relative;
+	width: 1040px;
+	height: 100%;
+	float: right;
+	margin-top: 60px;
+}
+.register-content-wrap{
+	width: 480px;
+	margin: auto;
+}
+.register-content-wrap>p:nth-child(1){
+	font-size: 44px;
+	margin-bottom: 20px;
+}
+.register-content-wrap>span:nth-child(2){
+	font-size: 28px;
+}
+.register-content-wrap>span:nth-child(3){
+	color: #359eff;
+	font-size: 24px;
+	float: right;
+}
+.register-content-wrap input{
+	font-size: 20px;
+	overflow: hidden;
+}
+#register-nickname,#register-password,#area-code,#register-phone,#register-prove,#send-prove{
+	width: 438px;
+	height: 50px;
+	padding: 0 20px;
+	line-height: 50px;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	margin-top: 20px;
+}
+#register-nickname{
+	margin-top: 60px;
+}
+#register-nickname-mistake,#register-password-mistake{
+	color: #ff5b5b;
+	display: none;
+}
+#area-code,#register-prove{
+	width: 110px;
+}
+#register-phone,#send-prove{
+	width: 265px;
+	float: right;
+}
+#register-pnone-remind{
+	color: #999;
+	font-size: 14px;
+	margin: 10px 0;
+}
+#send-prove{
+	outline:none;
+	cursor: pointer;
+	background-image: linear-gradient(0deg,#398bff,#3083ff);
+	color: #fff;
+}
+#prove{
+	display: none;
+}
+#register-submit{
+	width: 476px;
+	height: 50px;
+	background-image: linear-gradient(0deg,#398bff,#3083ff);
+    padding: 0 20px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+.register-success{
+	color: #999;
+	font-size: 14px;
+	margin-top: 20px;
+}
+#clause-img,.register-success-clause>p{
+	display: inline-block;
+	vertical-align: top;
+}
+.register-success-clause>p{
+	width: 260px;
+}
+#clause-img{
+	cursor: pointer;
+}
+#register-copyright{
+	margin: 40px 0 20px 0;
+	text-align: center;
+}
+#clause-remind{
+	color: red;
+	display: none;
+}
+
+/*注册成功后的页面*/
+#new-qq{
+	display: none;
+}
+.new-qq-wrap{
+	margin-top: 60px;
+	width: 480px;
+	margin: auto;
+}
+.qq-correct{
+	width: 80px;
+	height: 80px;
+	margin: auto;
+	display: block;
+}
+.new-qq-wrap>p:nth-child(2){
+	font-size: 32px;
+	text-align: center;
+	margin: 10px 0  30px 0;
+}
+#qq-count{
+	margin: 0 10px 0 135px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 28px;
+}
+#save-qq{
+	width: 28px;
+	height:28px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.new-qq-wrap>p:nth-child(5){
+	color: red;
+	font-size: 14px;
+	text-align: center;
+	margin: 20px 0  30px 0;
+}
+#new-qq-login{
+	width: 476px;
+	height: 50px;
+	background-image: linear-gradient(0deg,#398bff,#3083ff);
+    padding: 0 20px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    margin-top: 40px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
