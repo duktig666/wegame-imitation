@@ -36,7 +36,7 @@
 	-- index.html 入口文件
 	-- public-footer.html 公共头部文件
 	-- public-header.html 公共尾部文件
-- wegame-imitation （【JS和jQuery+BootStrap阶段】内容）
+- wegame-imitation （【JS和jQuery+BootStrap阶段】）
 	-- audio 音频资源
 	-- css 
 	-- html
@@ -111,4 +111,6 @@
 ## 优化空间
 
 - 开发尚早，未实现响应式
+
+
 
