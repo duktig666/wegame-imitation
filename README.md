@@ -27,6 +27,7 @@
 - images 图片资源
 - js
 - vedio 短视频资源
+- index.html 入口
 ```
 
 - 文件/文件夹以`demon`的为【**jQuery+BootStrap+Local Storage+JSON**】实现的类似于mysql的浏览器存储（增删改查）功能。
